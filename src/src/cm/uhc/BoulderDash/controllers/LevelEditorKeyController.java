@@ -1,10 +1,10 @@
-package cm.uhc.BoulderDash.controllers;
+package src.cm.uhc.BoulderDash.controllers;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-import cm.uhc.BoulderDash.models.LevelModel;
-import cm.uhc.BoulderDash.views.LevelEditorView;
+import src.cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.views.LevelEditorView;
 
 
 /**

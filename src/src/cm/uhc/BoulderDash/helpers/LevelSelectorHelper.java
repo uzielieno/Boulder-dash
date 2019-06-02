@@ -1,11 +1,11 @@
-package cm.uhc.BoulderDash.helpers;
+package src.cm.uhc.BoulderDash.helpers;
 
 import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
-import cm.uhc.BoulderDash.views.LevelEditorView;
-import cm.uhc.BoulderDash.views.MenuLevelSelector;
+import src.cm.uhc.BoulderDash.views.LevelEditorView;
+import src.cm.uhc.BoulderDash.views.MenuLevelSelector;
 
 
 /**

@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.views;
+package src.cm.uhc.BoulderDash.views;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import javax.swing.*;
 
-import cm.uhc.BoulderDash.views.LevelEditorView;
+import src.cm.uhc.BoulderDash.views.LevelEditorView;
 
 /**
  * AssetsLevelEditorComponent

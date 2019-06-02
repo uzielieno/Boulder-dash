@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.models;
+package src.cm.uhc.BoulderDash.models;
 
 import java.util.Observable;
 

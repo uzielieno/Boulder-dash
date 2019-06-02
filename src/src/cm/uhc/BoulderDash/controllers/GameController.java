@@ -1,13 +1,13 @@
-package cm.uhc.BoulderDash.controllers;
+package src.cm.uhc.BoulderDash.controllers;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
-import cm.uhc.BoulderDash.helpers.AudioLoadHelper;
-import cm.uhc.BoulderDash.models.LevelModel;
-import cm.uhc.BoulderDash.views.GameView;
-import cm.uhc.BoulderDash.views.MenuView;
+import src.cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
+import src.cm.uhc.BoulderDash.helpers.AudioLoadHelper;
+import src.cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.views.GameView;
+import src.cm.uhc.BoulderDash.views.MenuView;
 
 
 /**

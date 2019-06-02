@@ -1,23 +1,23 @@
-package cm.uhc.BoulderDash.models;
+package src.cm.uhc.BoulderDash.models;
 
 import java.awt.image.BufferedImage;
 import java.util.Observable;
 
-import cm.uhc.BoulderDash.exceptions.LevelConstraintNotRespectedException;
-import cm.uhc.BoulderDash.exceptions.UnknownModelException;
-import cm.uhc.BoulderDash.helpers.AudioLoadHelper;
-import cm.uhc.BoulderDash.helpers.LevelLoadHelper;
-import cm.uhc.BoulderDash.helpers.ModelConvertHelper;
-import cm.uhc.BoulderDash.models.CursorModel;
-import cm.uhc.BoulderDash.models.DiamondModel;
-import cm.uhc.BoulderDash.models.DirtModel;
-import cm.uhc.BoulderDash.models.DisplayableElementModel;
-import cm.uhc.BoulderDash.models.DoorModel;
-import cm.uhc.BoulderDash.models.EmptyModel;
-import cm.uhc.BoulderDash.models.ExpandingWallModel;
-import cm.uhc.BoulderDash.models.GameInformationModel;
-import cm.uhc.BoulderDash.models.RockfordModel;
-import cm.uhc.BoulderDash.models.SteelWallModel;
+import src.cm.uhc.BoulderDash.exceptions.LevelConstraintNotRespectedException;
+import src.cm.uhc.BoulderDash.exceptions.UnknownModelException;
+import src.cm.uhc.BoulderDash.helpers.AudioLoadHelper;
+import src.cm.uhc.BoulderDash.helpers.LevelLoadHelper;
+import src.cm.uhc.BoulderDash.helpers.ModelConvertHelper;
+import src.cm.uhc.BoulderDash.models.CursorModel;
+import src.cm.uhc.BoulderDash.models.DiamondModel;
+import src.cm.uhc.BoulderDash.models.DirtModel;
+import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
+import src.cm.uhc.BoulderDash.models.DoorModel;
+import src.cm.uhc.BoulderDash.models.EmptyModel;
+import src.cm.uhc.BoulderDash.models.ExpandingWallModel;
+import src.cm.uhc.BoulderDash.models.GameInformationModel;
+import src.cm.uhc.BoulderDash.models.RockfordModel;
+import src.cm.uhc.BoulderDash.models.SteelWallModel;
 
 
 /**

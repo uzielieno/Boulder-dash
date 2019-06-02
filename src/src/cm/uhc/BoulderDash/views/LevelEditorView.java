@@ -1,14 +1,14 @@
-package cm.uhc.BoulderDash.views;
+package src.cm.uhc.BoulderDash.views;
 
 import javax.swing.*;
 
-import cm.uhc.BoulderDash.controllers.LevelEditorController;
-import cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
-import cm.uhc.BoulderDash.helpers.LevelSelectorHelper;
-import cm.uhc.BoulderDash.models.LevelModel;
-import cm.uhc.BoulderDash.views.AssetsLevelEditorComponent;
-import cm.uhc.BoulderDash.views.LevelEditorGroundView;
-import cm.uhc.BoulderDash.views.MenuLevelSelector;
+import src.cm.uhc.BoulderDash.controllers.LevelEditorController;
+import src.cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
+import src.cm.uhc.BoulderDash.helpers.LevelSelectorHelper;
+import src.cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.views.AssetsLevelEditorComponent;
+import src.cm.uhc.BoulderDash.views.LevelEditorGroundView;
+import src.cm.uhc.BoulderDash.views.MenuLevelSelector;
 
 import java.awt.*;
 import java.util.Observable;

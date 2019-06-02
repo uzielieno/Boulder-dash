@@ -1,9 +1,9 @@
-package cm.uhc.BoulderDash.models;
+package src.cm.uhc.BoulderDash.models;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
 
-import cm.uhc.BoulderDash.models.DisplayableElementModel;
+import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
 
 
 /**

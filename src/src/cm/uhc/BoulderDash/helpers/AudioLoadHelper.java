@@ -1,10 +1,10 @@
-package cm.uhc.BoulderDash.helpers;
+package src.cm.uhc.BoulderDash.helpers;
 
 import java.io.File;
 import java.io.FilenameFilter;
 import java.util.HashMap;
 
-import cm.uhc.BoulderDash.bridges.SoundJLayerBridge;
+import src.cm.uhc.BoulderDash.bridges.SoundJLayerBridge;
 
 /**
  * AudioLoadHelper

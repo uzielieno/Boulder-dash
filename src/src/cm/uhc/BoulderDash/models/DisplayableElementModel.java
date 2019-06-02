@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.models;
+package src.cm.uhc.BoulderDash.models;
 
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;

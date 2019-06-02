@@ -1,13 +1,13 @@
-package cm.uhc.BoulderDash.views;
+package src.cm.uhc.BoulderDash.views;
 
 import java.awt.BorderLayout;
 
 import javax.swing.*;
 
-import cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
-import cm.uhc.BoulderDash.helpers.LevelSelectorHelper;
-import cm.uhc.BoulderDash.views.MenuImage;
-import cm.uhc.BoulderDash.views.MenuLevelSelector;
+import src.cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
+import src.cm.uhc.BoulderDash.helpers.LevelSelectorHelper;
+import src.cm.uhc.BoulderDash.views.MenuImage;
+import src.cm.uhc.BoulderDash.views.MenuLevelSelector;
 
 /**
  * MenuView

@@ -1,16 +1,16 @@
-package cm.uhc.BoulderDash.helpers;
+package src.cm.uhc.BoulderDash.helpers;
 
-import cm.uhc.BoulderDash.exceptions.UnknownModelException;
-import cm.uhc.BoulderDash.models.BoulderModel;
-import cm.uhc.BoulderDash.models.BrickWallModel;
-import cm.uhc.BoulderDash.models.DiamondModel;
-import cm.uhc.BoulderDash.models.DirtModel;
-import cm.uhc.BoulderDash.models.DisplayableElementModel;
-import cm.uhc.BoulderDash.models.EmptyModel;
-import cm.uhc.BoulderDash.models.ExpandingWallModel;
-import cm.uhc.BoulderDash.models.MagicWallModel;
-import cm.uhc.BoulderDash.models.RockfordModel;
-import cm.uhc.BoulderDash.models.SteelWallModel;
+import src.cm.uhc.BoulderDash.exceptions.UnknownModelException;
+import src.cm.uhc.BoulderDash.models.BoulderModel;
+import src.cm.uhc.BoulderDash.models.BrickWallModel;
+import src.cm.uhc.BoulderDash.models.DiamondModel;
+import src.cm.uhc.BoulderDash.models.DirtModel;
+import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
+import src.cm.uhc.BoulderDash.models.EmptyModel;
+import src.cm.uhc.BoulderDash.models.ExpandingWallModel;
+import src.cm.uhc.BoulderDash.models.MagicWallModel;
+import src.cm.uhc.BoulderDash.models.RockfordModel;
+import src.cm.uhc.BoulderDash.models.SteelWallModel;
 
 
 /**

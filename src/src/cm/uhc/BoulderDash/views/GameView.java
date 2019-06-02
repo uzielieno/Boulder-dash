@@ -1,11 +1,11 @@
-package cm.uhc.BoulderDash.views;
+package src.cm.uhc.BoulderDash.views;
 
 import javax.swing.*;
 
-import cm.uhc.BoulderDash.controllers.GameController;
-import cm.uhc.BoulderDash.models.LevelModel;
-import cm.uhc.BoulderDash.views.GameGroundView;
-import cm.uhc.BoulderDash.views.InformationPanel;
+import src.cm.uhc.BoulderDash.controllers.GameController;
+import src.cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.views.GameGroundView;
+import src.cm.uhc.BoulderDash.views.InformationPanel;
 
 import java.awt.*;
 import java.util.Observable;

@@ -1,9 +1,9 @@
-package cm.uhc.BoulderDash.controllers;
+package src.cm.uhc.BoulderDash.controllers;
 
-import cm.uhc.BoulderDash.helpers.AudioLoadHelper;
-import cm.uhc.BoulderDash.models.DirtModel;
-import cm.uhc.BoulderDash.models.DisplayableElementModel;
-import cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.helpers.AudioLoadHelper;
+import src.cm.uhc.BoulderDash.models.DirtModel;
+import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
+import src.cm.uhc.BoulderDash.models.LevelModel;
 
 /**
  * ElementPositionUpdateHelper

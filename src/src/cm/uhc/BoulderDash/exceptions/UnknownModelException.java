@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.exceptions;
+package src.cm.uhc.BoulderDash.exceptions;
 
 
 /**

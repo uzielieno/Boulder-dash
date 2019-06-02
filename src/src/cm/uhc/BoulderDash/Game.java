@@ -1,8 +1,8 @@
-package cm.uhc.BoulderDash;
+package src.cm.uhc.BoulderDash;
 
 import javax.swing.*;
 
-import cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
+import src.cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
 
 
 

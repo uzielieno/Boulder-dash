@@ -1,8 +1,8 @@
-package cm.uhc.BoulderDash.views;
+package src.cm.uhc.BoulderDash.views;
 
 import javax.swing.*;
 
-import cm.uhc.BoulderDash.views.LevelEditorView;
+import src.cm.uhc.BoulderDash.views.LevelEditorView;
 
 import java.awt.event.ActionEvent;
 

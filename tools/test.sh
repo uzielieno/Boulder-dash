@@ -4,7 +4,6 @@
 #  Boulder Dash
 #  Test script
 #
-#  Authors: Valérian Saliou, Colin Leverger
 ##
 
 # Go to updir

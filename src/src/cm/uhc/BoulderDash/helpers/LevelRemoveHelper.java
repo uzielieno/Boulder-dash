@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.helpers;
+package src.cm.uhc.BoulderDash.helpers;
 
 
 import java.io.File;

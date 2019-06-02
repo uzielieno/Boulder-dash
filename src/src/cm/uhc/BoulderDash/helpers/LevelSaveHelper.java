@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.helpers;
+package src.cm.uhc.BoulderDash.helpers;
 
 import java.io.File;
 import java.io.IOException;
@@ -14,8 +14,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
 
-import cm.uhc.BoulderDash.models.DirtModel;
-import cm.uhc.BoulderDash.models.DisplayableElementModel;
+import src.cm.uhc.BoulderDash.models.DirtModel;
+import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

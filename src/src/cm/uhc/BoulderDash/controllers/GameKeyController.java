@@ -1,13 +1,13 @@
-package cm.uhc.BoulderDash.controllers;
+package src.cm.uhc.BoulderDash.controllers;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 
-import cm.uhc.BoulderDash.controllers.BoulderAndDiamondController;
-import cm.uhc.BoulderDash.controllers.RockfordUpdateController;
-import cm.uhc.BoulderDash.helpers.AudioLoadHelper;
-import cm.uhc.BoulderDash.models.DisplayableElementModel;
-import cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.controllers.BoulderAndDiamondController;
+import src.cm.uhc.BoulderDash.controllers.RockfordUpdateController;
+import src.cm.uhc.BoulderDash.helpers.AudioLoadHelper;
+import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
+import src.cm.uhc.BoulderDash.models.LevelModel;
 
 
 /**
@@ -15,8 +15,6 @@ import cm.uhc.BoulderDash.models.LevelModel;
  *
  * Manages the key events controller.
  *
- * @author      Colin Leverger <me@colinleverger.fr>
- * @since       2015-06-19
  */
 public class GameKeyController implements KeyListener {
 	private LevelModel levelModel;

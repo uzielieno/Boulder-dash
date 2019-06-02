@@ -1,17 +1,18 @@
-package cm.uhc.BoulderDash.controllers;
+package src.cm.uhc.BoulderDash.controllers;
+
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-import cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
-import cm.uhc.BoulderDash.exceptions.LevelConstraintNotRespectedException;
-import cm.uhc.BoulderDash.helpers.LevelRemoveHelper;
-import cm.uhc.BoulderDash.helpers.LevelSaveHelper;
-import cm.uhc.BoulderDash.models.LevelModel;
-import cm.uhc.BoulderDash.views.HelpView;
-import cm.uhc.BoulderDash.views.LevelEditorView;
+import src.cm.uhc.BoulderDash.controllers.NavigationBetweenViewController;
+import src.cm.uhc.BoulderDash.exceptions.LevelConstraintNotRespectedException;
+import src.cm.uhc.BoulderDash.helpers.LevelRemoveHelper;
+import src.cm.uhc.BoulderDash.helpers.LevelSaveHelper;
+import src.cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.views.HelpView;
+import src.cm.uhc.BoulderDash.views.LevelEditorView;
 
 /**
  * LevelEditorController

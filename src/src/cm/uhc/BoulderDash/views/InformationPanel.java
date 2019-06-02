@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.views;
+package src.cm.uhc.BoulderDash.views;
 
 import java.util.Observable;
 import java.util.Observer;
@@ -6,7 +6,7 @@ import java.util.Observer;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
-import cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.models.LevelModel;
 
 /**
  * InformationPanel

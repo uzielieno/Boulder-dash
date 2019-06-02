@@ -1,6 +1,6 @@
-package cm.uhc.BoulderDash.models;
+package src.cm.uhc.BoulderDash.models;
 
-import cm.uhc.BoulderDash.models.DisplayableElementModel;
+import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
 
 
 /**

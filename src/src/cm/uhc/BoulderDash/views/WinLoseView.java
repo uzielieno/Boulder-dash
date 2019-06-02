@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.views;
+package src.cm.uhc.BoulderDash.views;
 
 import java.awt.BorderLayout;
 

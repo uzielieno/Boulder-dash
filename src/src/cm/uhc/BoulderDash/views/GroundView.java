@@ -1,8 +1,8 @@
-package cm.uhc.BoulderDash.views;
+package src.cm.uhc.BoulderDash.views;
 
 import javax.swing.*;
 
-import cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.models.LevelModel;
 
 import java.awt.*;
 import java.util.Observable;

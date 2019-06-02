@@ -1,4 +1,4 @@
-package cm.uhc.BoulderDash.bridges;
+package src.cm.uhc.BoulderDash.bridges;
 
 import java.net.URL;
 
@@ -11,8 +11,6 @@ import javazoom.jl.player.FactoryRegistry;
  *
  * Sound bridge to the JLayer library.
  *
- * @author      Valerian Saliou <valerian@valeriansaliou.name>
- * @since       2015-06-19
  */
 public class SoundJLayerBridge extends PlaybackListener implements Runnable {
     private String filePath;

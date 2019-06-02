@@ -1,6 +1,6 @@
-package cm.uhc.BoulderDash.controllers;
+package src.cm.uhc.BoulderDash.controllers;
 
-import cm.uhc.BoulderDash.models.LevelModel;
+import src.cm.uhc.BoulderDash.models.LevelModel;
 
 /**
  * ElementPositionUpdateHelper
