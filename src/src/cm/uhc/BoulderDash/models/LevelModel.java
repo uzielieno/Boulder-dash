@@ -54,7 +54,7 @@ public class LevelModel extends Observable implements Runnable {
 	/**
 	 * Animation speed
 	 */
-	private final int DELAY = 25;
+	private int DELAY = 25;
 
 	/**
 	 * Class constructor
@@ -159,7 +159,7 @@ public class LevelModel extends Observable implements Runnable {
 	public void resetLevelModel() {
 		this.groundGrid = this.levelLoadHelper.getGroundGrid();
 		this.gameRunning = true;
-		this.gameInformationModel.resetInformations();
+		this.gameInformationModel.resetInformations(DELAY = 25);
 	}
 
 	/**
