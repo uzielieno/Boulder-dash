@@ -1,22 +1,10 @@
 package src.cm.uhc.BoulderDash.helpers;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-
-import src.cm.uhc.BoulderDash.exceptions.UnknownModelException;
-import src.cm.uhc.BoulderDash.helpers.ModelConvertHelper;
-import src.cm.uhc.BoulderDash.models.BoulderModel;
-import src.cm.uhc.BoulderDash.models.BrickWallModel;
-import src.cm.uhc.BoulderDash.models.DiamondModel;
-import src.cm.uhc.BoulderDash.models.DirtModel;
-import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
-import src.cm.uhc.BoulderDash.models.EmptyModel;
-import src.cm.uhc.BoulderDash.models.ExpandingWallModel;
-import src.cm.uhc.BoulderDash.models.MagicWallModel;
-import src.cm.uhc.BoulderDash.models.RockfordModel;
-import src.cm.uhc.BoulderDash.models.SteelWallModel;
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Locale;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
@@ -26,11 +14,14 @@ import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpressionException;
 import javax.xml.xpath.XPathFactory;
 
-import java.io.IOException;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
-import java.util.Locale;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+
+import src.cm.uhc.BoulderDash.exceptions.UnknownModelException;
+import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
+import src.cm.uhc.BoulderDash.models.RockfordModel;
 
 
 /**
@@ -324,6 +315,7 @@ public class LevelLoadHelper {
      *
      * @param  dateCreatedValue  Creation date value
      */
+	
 	private void setDateCreatedValue(Date dateCreatedValue) {
 		this.dateCreatedValue = dateCreatedValue;
 	}

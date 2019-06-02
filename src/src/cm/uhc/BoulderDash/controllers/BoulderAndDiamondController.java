@@ -68,7 +68,7 @@ public class BoulderAndDiamondController implements Runnable {
 				// If it is a boulder or a diamond...
 				if (spriteName == "boulder" || spriteName == "diamond") {
 					this.manageFall(x, y);
-				} else if(spriteName == "expandingwall"){
+				} else if(spriteName == "mur"){
 					if(this.expandWall(x,y).equals("left")){
 						x -= 1;
 					}
@@ -140,7 +140,7 @@ public class BoulderAndDiamondController implements Runnable {
 
 			this.levelModel.setGameRunning(false);
 		} else if (spriteNameBelow == "magicwall") {
-			if (this.levelModel.getGroundLevelModel()[x][y].getSpriteName() == "boulder" 
+			if (this.levelModel.getGroundLevelModel()[x][y].getSpriteName() == "boulders" 
 					&& (this.levelModel.getGroundLevelModel()[x][y+2].getSpriteName() == "dirt" ||
 							this.levelModel.getGroundLevelModel()[x][y+2].getSpriteName() == "black")) {
 				if(this.levelModel.getGroundLevelModel()[x][y].isConvertible()) {

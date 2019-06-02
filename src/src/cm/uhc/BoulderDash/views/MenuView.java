@@ -62,7 +62,6 @@ public class MenuView extends JFrame {
 
 		// Add some buttons on the actionPanel
 		this.createButton("game", "Game");
-		this.createButton("editor", "Editor");
 		this.createButton("quit", "Quit");
 
 		this.add(this.menuImage, BorderLayout.CENTER);

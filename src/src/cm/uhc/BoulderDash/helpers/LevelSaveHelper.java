@@ -3,8 +3,6 @@ package src.cm.uhc.BoulderDash.helpers;
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -12,14 +10,14 @@ import java.util.regex.Pattern;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+
 import com.sun.org.apache.xml.internal.serialize.XMLSerializer;
 
 import src.cm.uhc.BoulderDash.models.DirtModel;
 import src.cm.uhc.BoulderDash.models.DisplayableElementModel;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
 
 
 /**

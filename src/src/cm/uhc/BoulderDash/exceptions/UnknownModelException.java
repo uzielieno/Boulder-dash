@@ -1,6 +1,5 @@
 package src.cm.uhc.BoulderDash.exceptions;
 
-
 /**
  * UnknownModelException
  *

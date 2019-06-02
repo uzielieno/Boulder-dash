@@ -53,7 +53,8 @@ public class SoundJLayerBridge extends PlaybackListener implements Runnable {
     /**
      * Stops the target sound
      */
-    public void stop() {
+    @SuppressWarnings("deprecation")
+	public void stop() {
         try {
             this.playerThread.stop();
         } catch (Exception ex) {

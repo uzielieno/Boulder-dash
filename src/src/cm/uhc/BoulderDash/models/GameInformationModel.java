@@ -7,9 +7,6 @@ import java.util.Observable;
  * GameInformationModel will contain all the data which will
  * go to the InformationPanel.
  * 
- * @author      Colin Leverger <me@colinleverger.fr>
- * @since       2015-06-19
- * 
  */
 public class GameInformationModel extends Observable  {
 	private int score;
@@ -104,8 +101,9 @@ public class GameInformationModel extends Observable  {
 
     /**
      * Reset details about object
+     * @param remainingsDiamonds 
      */
-	public void resetInformations() {
+	public void resetInformations(int remainingsDiamonds) {
 		this.score = 0;
 		this.remainingsDiamonds = remainingsDiamonds;
 		this.timer = 0;		
