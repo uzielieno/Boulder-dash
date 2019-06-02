@@ -68,7 +68,7 @@ public class BoulderAndDiamondController implements Runnable {
 				// If it is a boulder or a diamond...
 				if (spriteName == "boulder" || spriteName == "diamond") {
 					this.manageFall(x, y);
-				} else if(spriteName == "mur"){
+				} else if(spriteName == "expandingwall"){
 					if(this.expandWall(x,y).equals("left")){
 						x -= 1;
 					}

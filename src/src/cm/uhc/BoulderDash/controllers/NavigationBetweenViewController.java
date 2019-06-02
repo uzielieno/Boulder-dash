@@ -45,7 +45,7 @@ public class NavigationBetweenViewController implements ActionListener {
                 System.exit(0);
                 break;
 
-            case "editor":
+        /*    case "editor":
                 // New blank model for editor
                 this.levelModelForEditor = new LevelModel(audioLoadHelper);
                 this.levelEditorController = new LevelEditorController(this.levelModelForEditor, this);
@@ -58,7 +58,7 @@ public class NavigationBetweenViewController implements ActionListener {
                 }
 
                 break;
-
+*/
             case "game":
                 // Reinit the levelModelForGame...
                 pickedLevelIdentifier = this.menuView.getLevelIdentifier();

@@ -23,6 +23,7 @@ public class GameKeyController implements KeyListener {
      * Class constructor
      *
      * @param  levelModel  Level model
+     * 
      */
 	public GameKeyController(LevelModel levelModel, AudioLoadHelper audioLoadHelper) {
 		this.levelModel = levelModel;

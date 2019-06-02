@@ -20,8 +20,7 @@ public class AssetsLevelEditorComponent extends JPanel implements ActionListener
 	/**
 	 * Available choices
 	 */
-	static List<String> choiceList = Arrays.asList("Boulder", "Diamond", "Dirt", "Brick Wall", "Expending Wall", "Magic Wall",
-			"Magic Wall", "Steel Wall", "Rockford");
+	static List<String> choiceList = Arrays.asList("Boulder", "Diamond", "Dirt", "Brick Wall", "Expending Wall", "Magic Wall", "Steel Wall", "Rockford");
 
 	/**
 	 * Class constructor
@@ -56,7 +55,7 @@ public class AssetsLevelEditorComponent extends JPanel implements ActionListener
 		}
 
 		this.add(radioPanel, BorderLayout.LINE_START);
-		this.setBorder(BorderFactory.createEmptyBorder(70, 70, 70, 70));
+		this.setBorder(BorderFactory.createEmptyBorder(90, 90, 90, 90));
 	}
 
 	/**

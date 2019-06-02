@@ -24,7 +24,7 @@ public class HelpView extends JFrame {
 
 		// UI parameters
 		this.setDefaultCloseOperation(this.DISPOSE_ON_CLOSE);
-		this.setBounds(500, 500, 560, 150);
+		this.setBounds(300, 300, 360, 150);
 
 		// App parameters
 		this.setTitle("Boulder Dash | Help");

@@ -27,7 +27,7 @@ public class WinLoseView extends JFrame {
 
 		// UI parameters
 		this.setDefaultCloseOperation(this.DISPOSE_ON_CLOSE);
-		this.setBounds(500, 500, 550, 100);
+		this.setBounds(300, 300,300, 100);
 
 		// App parameters
 		this.setTitle("END OF THE GAME ! ");

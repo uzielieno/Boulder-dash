@@ -41,8 +41,8 @@ public class MenuView extends JFrame {
 
 		// UI parameters
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		this.setBounds(100, 100, 200, 100);
-		this.setSize(1000, 700);
+		this.setBounds(50, 50, 100, 50);
+		this.setSize(700, 500);
 
 		// App parameters
 		this.setTitle("Boulder Dash | Menu");
