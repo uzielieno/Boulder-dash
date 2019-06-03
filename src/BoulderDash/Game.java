@@ -2,7 +2,7 @@ package BoulderDash;
 
 import javax.swing.*;
 
-import BoulderDash.controllers.NavigationBetweenViewController;
+import BoulderDash.controller.NavigationBetweenViewController;
 
 
 
